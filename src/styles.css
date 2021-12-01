@@ -1,0 +1,19 @@
+body {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul, ol {
+    column-count: 3;
+}
+.africa { background-color: blue}
+.americas { background-color: green}
+.asia {
+    background-color: red;}
+.europe {
+    background-color: yellow;
+}
+.oceania {
+    background-color: purple;
+}

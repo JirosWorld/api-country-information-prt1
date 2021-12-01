@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoek pagina</title>
+</head>
+<body>
+<h1>Zoekpagina landen</h1>
+<div id="anker-element"></div>
+
+<div class="form-container">
+    <h2>Zoeken</h2>
+    <!-- We hebben nog geen backend om ons form naartoe te sturen, dus de action blijft leeg-->
+    <form action="" id="search-form">
+        <label for="input-country">
+            Zoek land:
+            <input type="text" name="input-country" id="input-country"/>
+        </label>
+        <p class="form-warning" id="input-country-warning"></p>
+        <label for="searchbutton"></label>
+        <button id="searchbutton" type="submit">ZOEK</button>
+    </form>
+    <div id="output-search"></div>
+</div>
+
+<script type="module" src="zoeker.js"></script>
+</body>
+</html>

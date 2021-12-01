@@ -2,6 +2,13 @@
 
 ### Jiro's huiswerk
 
+origineel: https://github.com/hogeschoolnovi/frontend-javascript-country-information-prt1
+
+uitwerkingen; https://github.com/hogeschoolnovi/frontend-javascript-country-information-prt1-uitwerkingen
+
+#### npm start - andere start
+Het begin van deze app is hier op gezet om de juiste oplossing te zien: `parcel src/uitwerkingen-inner-html/src/index.html`
+
 ## Inleiding
 
 Je vrienden hebben er inmiddels lucht van gekregen dat je kunt programmeren en sindsdien wordt je low key gestalkt met

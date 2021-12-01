@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Country Information - World Regions</title>
     <!-- 1. Koppel CSS en JavaScript bestand aan deze HTML-->
     <!--2. Check of de CSS werkt door de achtergrond kleur rood te maken-->
@@ -9,7 +10,16 @@
 <!--    <img src="assets/world_map.png" alt="">-->
 </head>
 <body>
-
+<header><h1>World regions</h1></header>
+<main>
+    <div id="map">
+        <img src="assets/world_map.png" alt="" width="" height="" />
+    </div>
+    <div class="all-countries-data">
+        <ul id="country-data"></ul>
+        <ol id="country-flags"></ol>
+    </div>
+</main>
 <script type="module" src="app.js"></script>
 </body>
 </html>
